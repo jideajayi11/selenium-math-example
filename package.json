@@ -1,0 +1,17 @@
+{
+  "name": "mathExample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js ./cucumber/myFeatures -r ./cucumber/mySteps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^5.1.0",
+    "grunt-shell": "^3.0.1",
+    "gulp-shell": "^0.7.1"
+  }
+}
